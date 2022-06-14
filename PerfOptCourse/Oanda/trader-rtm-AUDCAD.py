@@ -246,31 +246,3 @@ if __name__ == "__main__":
     trader = ConTrader(config_file, "AUD_CAD", "15min", SMA = 20, dev = 1.8947368, weight = 1)
     trader.start_trading(days = 5, max_attempts =  3, wait = 20, wait_increase = 0)
     
-#====================================================================================================
-#BEST COMBINATION: FREQUENCY = 361.0-MINUTE CHART | SMA = 49.0 | DEV = 1.7058823529411764 | Multiple = 1.280781
-#----------------------------------------------------------------------------------------------------        
-
-#====================================================================================================
-#SIMPLE CONTRARIAN STRATEGY | INSTRUMENT = EURUSD | FREQ = 361.0 | SMA = 49 | DEV = 1.7058823529411764
-#----------------------------------------------------------------------------------------------------
-
-
-#PERFORMANCE MEASURES:
-
-
-#Multiple (Strategy):         195.390982
-#Multiple (Buy-and-Hold):     0.896314
-#--------------------------------------
-#Out-/Underperformance:       194.494668
-
-
-#CAGR:                        14.930564
-#Annualized Mean:             2.771689
-#Annualized Std:              1.258116
-#Sharpe Ratio:                2.203047
-#Sortino Ratio:               3.144389
-#Maximum Drawdown:            0.612140
-#Calmar Ratio:                24.390764
-#Max Drawdown Duration:       197 Days
-#Kelly Criterion:             2.251164
-#====================================================================================================
